@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Orca Settings</string>
+
+    <!-- Header Strings -->
+    <string name="user_interface">Interface</string>
+    <string name="header_statusbar">Status Bar</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="general_ui">General UI</string>
+    <string name="clock">Clock</string>
+    <string name="signal">Signal</string>
+    <string name="quick_toggles">Quick Toggles</string>
+    <string name="others">Others</string>
+    <string name="navigation_bar">Navigation Bar</string>
+    <string name="power_menu">Power Menu</string>
+    <string name="tools">Tools</string>
+
+    <!-- Activity titles defined in AndroidManifest.xml -->
+    <string name="title_general_ui">General UI</string>
+    <string name="title_statusbar_clock">Statusbar Clock</string>
+    <string name="title_quick_toggles">Quick Toggles</string>
+    <string name="title_statusbar_signal">Statusbar Signal</string>
+    <string name="title_statusbar">Statusbar</string>
+    <string name="title_navbar">Navigation Bar</string>
+    <string name="title_power_menu">Power Menu</string>
+    <string name="title_navring">Navigation Ring</string>
+    <string name="title_clipboard_share">Share to Clipboard</string>
+
+    <!-- Header Summaries -->
+    <string name="header_summary_general_ui">@null</string>
+    <string name="header_summary_power_menu">@null</string>
+    <string name="header_summary_navigation_bar">@null</string>
+    <string name="header_summary_clock">@null</string>
+    <string name="header_summary_signal">@null</string>
+    <string name="header_summary_toggles">@null</string>
+    <string name="header_summary_statusbar">Battery and colors...</string>
+
+    <!-- Menu Strings -->
+    <string name="menu_nav_bar_reset">Reset nav bar</string>
+    <string name="menu_main_activity_change_locale">Locale</string>
+    <string name="menu_user_interface_reset">Reset notification wallpaper</string>
+    <string name="menu_lockscreens_reset">Reset lockscreen wallpaper</string>
+
+    <!-- General Strings -->
+    <string name="advanced_settings">Advanced settings</string>
+    <string name="misc_short">Misc</string>
+    <string name="custom_app_icon_successfully">"'s icon set successfully!"</string>
+    <string name="select_custom_app_title">Select custom application</string>
+    <string name="use_custom_app_title">Use custom application</string>
+    <string name="use_custom_app_summary">Use custom application instead of the recent applications dialog</string>
+    <string name="group_applications">Applications</string>
+    <string name="select_application">Select application</string>
+    <string name="dpi">DPI</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>   
+    <string name="arrow_right">→</string> 
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#FF000000</string>
+    <string name="set">Set</string>
+    <string name="ics_color">ICS</string>
+
+    <!-- Power Menu -->
+    <string name="title_show_screenshot">Show screenshot</string>
+    <string name="title_show_airplane_toggle">Show airplane toggle</string>
+    <string name="power_menu_expanded_desktop">Show expanded desktop</string>
+    <string name="title_show_navbar_hide">Show navigation bar toggle</string>
+
+    <!-- Status Bar Headers -->
+    <string name="status_bar_clock_header">Clock</string>
+    <string name="status_bar_battery_header">Battery</string>
+    <string name="status_bar_signal_header">Signal</string>
+    <string name="status_bar_misc">Misc</string>
+
+    <!-- Status Bar -->
+    <string name="status_bar_clock_title">Clock style</string>
+    <string name="status_bar_general_title">General</string>
+    <string name="clock_title_enable">Clock style</string>
+    <string name="title_clock_ampm_entries">AM/PM style</string>
+    <string name="enable_clock_weekday">Day of the week</string>
+    <string name="enable_clock_weekday_summary">Abbreviated day of the week before the time</string>
+    <string name="statusbar_background_color">Statusbar color</string>
+    <string name="clock_color_title">Clock color</string>
+    <string name="clock_color_style_title">Clock color style</string>
+    <string name="clock_color">Color of your choice</string>
+    <string name="stock_color">Stock Clock color (default)</string>
+    <string name="alarm">Alarms</string>
+    <string name="clock_options">Clock Options</string>
+    <string name="nothing">Nothing</string>
+    <string name="today">Calendar for today</string>
+    <string name="event">Calendar new event</string>
+    <string name="voiceassist">Voice commands</string>
+    <string name="title_clock_doubleclick">Clock double click actions</string>
+    <string name="title_clock_longclick">Clock long click actions</string>
+    <string name="title_clock_shortclick">Clock short click actions</string>
+
+    <!-- Battery style -->
+    <string name="battery_icon_title">Icon Style</string>
+    <string name="icon_only">Icon only</string>
+    <string name="text_only">Text only</string>
+    <string name="icon_w_text">Icon with text</string>
+    <string name="icon_w_center_text">Icon with centered text</string>
+    <string name="circlemod">CircleMOD</string>
+    <string name="circle_battery">CM Circle</string>
+    <string name="circle_battery_w_percent">CM Circle w/ percent</string>
+    <string name="circle_dotted_w_percent">CM Dotted w/ percent</string>
+    <string name="hide">Hide</string>
+    <string name="circle_battery_color">Circle color</string>
+    <string name="circle_battery_text_color">Circle text color</string>
+    <string name="circle_battery_animation_speed">Circle animation speed</string>
+    <string name="circle_battery_animation_speed_none">None</string>
+    <string name="circle_battery_animation_speed_slow">Slow</string>
+    <string name="circle_battery_animation_speed_stock">Normal</string>
+    <string name="circle_battery_animation_speed_fast">Fast</string>
+    <string name="circle_battery_reset_title">Reset circle colors</string>
+    <string name="circle_battery_reset_summary">Reset circle colors to apply installed theme engine colors</string>
+
+    <!-- Battery Bar -->
+    <string name="battery_bar">Battery bar location</string>
+    <string name="battery_bar_color">Battery bar color</string>
+    <string name="battery_bar_cat">Battery bar options</string>
+    <string name="battery_bar_style_title">Battery bar style</string>
+    <string name="battery_bar_thickness_title">Battery bar thickness</string>
+    <string name="battery_bar_animate_title">Charging animation</string>
+    <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
+
+    <!-- Statusbar | Signal -->
+    <string name="signal_style">Signal text style</string>
+    <string name="signal_color_title">Signal color</string>
+    <string name="hide_signal_title">Hide signal bars</string>
+    <string name="hide_signal_summary">Updates when signal strength changes</string>
+    <string name="wifi_signal_style">Wi-Fi Signal text style</string>
+    <string name="wifi_signal_color_title">Wi-Fi Signal color</string>
+
+    <!-- signal style -->
+    <string name="show_signal_bars">Show signal bars</string>
+    <string name="show_signal_text">Show signal text</string>
+    <string name="show_with_dbm">Show with dBm</string>
+
+    <!-- Statusbar | Clock -->
+    <string name="right_clock">Right clock</string>
+    <string name="center_clock">Center clock</string>
+    <string name="no_clock">No clock</string>
+    <string name="dont_show">Don\'t show</string>
+    <string name="small_am_pm">Small AM/PM</string>
+    <string name="regular_am_pm">Regular AM/PM</string>
+    <string name="small_weekday">Small weekday</string>
+    <string name="regular_weekday">Regular weekday</string>
+
+    <!-- Statusbar + Navigationbar Background color -->
+    <string name="navbar_bg">Navbar background</string>
+    <string name="navbar_button_colors">Navbar button color</string>
+    <string name="background_style">Background Color Style</string>
+    <string name="bgs_color">Color/Alpha only</string>
+    <string name="bgs_defaultbg_plus_color">Default Background + Color/Alpha</string>
+    <string name="bgs_defaultbg">Default Background only</string>
+    <string name="statusbar_bg">Statusbar background</string>
+    <string name="navbar_bg_color">Navigation bar background</string>
+
+    <!-- Quick Toggles | AOKP -->
+    <string name="toggle_airplane_mode">Airplane Mode</string>
+    <string name="toggle_auto_rotate">Auto Rotate</string>
+    <string name="toggle_bluetooth">Bluetooth</string>
+    <string name="toggle_fcharge">Fast Charge</string>
+    <string name="toggle_gps">GPS</string>
+    <string name="toggle_lte">LTE</string>
+    <string name="toggle_data">Data</string>
+    <string name="toggle_nfc">NFC</string>
+    <string name="toggle_silent">Silent</string>
+    <string name="toggle_sync">Sync</string>
+    <string name="toggle_torch">Torch</string>
+    <string name="toggle_2g">2G</string>
+    <string name="toggle_usb_tether">USB Tether</string>
+    <string name="toggle_vibrate">Vibrate</string>
+    <string name="toggle_wifi_tether">Wifi Tether</string>
+    <string name="toggle_wifi">Wi-Fi</string>
+    <string name="toggle_user">User</string>
+    <string name="toggle_favorite_contact">Favorite Contact</string>
+    <string name="toggle_settings">Settings</string>
+    <string name="toggle_signal">Signal</string>
+    <string name="toggle_clock">Clock</string>
+    <string name="toggle_ime">IME</string>
+    <string name="toggle_battery">Battery</string>
+    <string name="toggle_brightness">Brightness</string>
+    <string name="toggle_screen">Screen off</string>
+
+    <string name="toggle_default_entries">USER|BRIGHTNESS|SETTINGS|WIFI|SIGNAL|ROTATE|BATTERY|AIRPLANE_MODE|BLUETOOTH|SCREEN</string>
+    <string name="toggles_display_dialog">Choose which toggles to use</string>
+    <string name="enabled_toggles_title">Enabled toggles</string>
+    <string name="enabled_toggles_summary">Choose toggles to display</string>
+    <string name="toggles_display_close">Close</string>
+    <string name="toggles_order_title">Toggle order</string>
+    <string name="toggles_order_summary">Choose the order which your toggles are displayed</string>
+    <string name="toggles_per_row_title">Toggles per row</string>
+    <string name="toggles_per_row_summary">Choose how many toggles to show per row</string>
+    <string name="toggle_favcontact_title">Favorite contact</string>
+    <string name="toggle_favcontact_summary">Choose your favorite contact</string>
+    <string name="toggle_enable_fasttoggle_title">Enable fast toggle</string>
+    <string name="toggle_enable_fasttoggle_summary">Allows you to pull your toggles directly instead of the current behavior.</string>
+    <string name="toggle_choose_fasttoggle_side_title">Choose fast toggle side</string>
+    <string name="toggle_choose_fasttoggle_side_summary">Choose which side the fast toggle should be.</string>
+
+    <!-- holo theme style for Quick Setting tiles -->
+    <string name="holo_dark">Holo dark</string>
+    <string name="holo_light">Holo light</string>
+    <string name="quicksettings_theme_style">Holo</string>
+    <string name="quicksettings_theme_style_summary">Choose between holo light or holo dark</string>
+    <string name="quick_text_color_title">Text color</string>
+
+    <!-- Navigation Bar -->
+    <string name="right">Right</string>
+    <string name="left">Left</string>
+    <string name="both">Both</string>
+    <string name="default_jb_behavior">Default JB behavior</string>
+    <string name="home">Home</string>
+    <string name="back">Back</string>
+    <string name="recents">Recents</string>
+    <string name="search">Search</string>
+    <string name="screenshot">Screenshot</string>
+    <string name="menu">Menu</string>
+    <string name="open_ime_switcher">Open IME Switcher</string>
+    <string name="kill_app">Kill app</string>
+    <string name="power">Power</string>
+    <string name="notifications">Notifications</string>
+    <string name="custom_app">Custom app</string>
+    <string name="menu_power">Power menu</string>
+    <string name="blank">Blank</string>
+    <string name="none">None</string>
+    <string name="take_screenshot">Take Screenshot</string>
+    <string name="ring_vib">Ring/Vib</string>
+    <string name="ring_silent">Ring/Silent</string>
+    <string name="ring_vib_silent">Ring/Vib/Silent</string>
+    <string name="screen_off">Screen Off</string>
+    <string name="google_now">Google Now</string>
+    <string name="one_target">1 target</string>
+    <string name="two_targets">2 targets</string>
+    <string name="three_targets">3 targets</string>
+    <string name="four_targets">4 targets</string>
+    <string name="five_targets">5 targets</string>
+    <string name="always_show_invincible_icons">Always show invisible icons</string>
+    <string name="always_show">Always show</string>
+    <string name="default_jb_with_invincible_icons_when_hidden">Default JB with invisible icons when hidden</string>
+    <string name="navbar_button_cat">Navigation bar buttons</string>
+    <string name="title_pref_menu_display">Menu location</string>
+    <string name="summary_pref_menu_display">Remember to remove your menu buttons if you\'re using the big menu button!</string>
+    <string name="title_pref_navigation_menu_display">Menu visibility</string>
+    <string name="summary_pref_navigation_menu_display">How and when do you want the menu buttons to appear?</string>
+    <string name="navbar_qty_title">Navigation button quantity</string>
+    <string name="navbar_qty_summary">Choose the number of navigation buttons</string>
+    <string name="navbar_action_title">Button %1$s action &amp; icon</string>
+    <string name="button_transparency_title">Nav button transparency</string>
+    <string name="navbar_width_help_title">NavBar combined width help</string>
+    <string name="navbar_width_help_summary">100 is 70\%% of screen width, 5 is 30\%% of screen width. 0 will default to per button width.</string>
+    <string name="width_port_title">Combined bar width port</string>
+    <string name="width_land_title">Combined bar width land</string>
+    <string name="navbar_longpress_title">Button %1$s longpress action</string>
+    <string name="navbar_action_home">Home</string>
+    <string name="navbar_action_back">Back</string>
+    <string name="navbar_action_recents">Recents</string>
+    <string name="navbar_action_search">Search</string>
+    <string name="navbar_action_screenshot">Screenshot</string>
+    <string name="navbar_action_menu">Menu</string>
+    <string name="navbar_action_ime">Open IME Switcher</string>
+    <string name="navbar_action_kill">Kill task</string>
+    <string name="navbar_action_power">Power</string>
+    <string name="navbar_action_notifications">Notifications</string>
+    <string name="navbar_action_none">Empty</string>
+    <string name="navbar_enable_bar">Enable bar</string>
+    <string name="navigation_bar_height_title">Navigation bar height</string>
+    <string name="navigation_bar_height_summary">Navigation Bar height while in portrait.</string>
+    <string name="navigation_bar_height_landscape_title">Navigation bar height landscape</string>
+    <string name="navigation_bar_height_landscape_summary">Navigation Bar height while in landscape.</string>
+    <string name="navigation_bar_width_title">Navigation bar width</string>
+    <string name="navigation_bar_width_summary">Navigation Bar height if the bar is along a side.</string>
+    <string name="navbar_enable_dialog_title">Reboot required!</string>
+    <string name="navbar_enable_dialog_msg">You <b>should</b> reboot right now to make sure everything works properly!</string>
+    <string name="navbar_enable_dialog_negative">I\'ll reboot later</string>
+    <string name="navbar_enable_dialog_Positive">Reboot now!</string>
+    <string name="navbar_height_dialog_title">Reboot required!</string>
+    <string name="navbar_height_dialog_summary">Please reboot for height change to be added properly!</string>
+    <string name="navbar_height_dialog_button_later">I\'ll reboot later</string>
+    <string name="navbar_height_dialog_button_reboot">Reboot now!</string>
+    <string name="navigation_bar_tint_title">Navigation bar color</string>
+    <string name="navigation_bar_glow_tint_title">Navigation bar glow color</string>
+    <string name="navigation_bar_glow_tint_summary">When you press on a button, there is a glow. Use this to change the color of the glow.</string>
+    <string name="navigation_bar_menu_arrow_keys_title">Menu arrow keys</string>
+    <string name="navigation_bar_menu_arrow_keys_summary">Show arrow keys in the navigation bar while typing</string>
+    <string name="glow_times_title">Button glow animation</string>
+    <string name="glow_times_off">Off</string>
+    <string name="glow_times_superquick">Super quick</string>
+    <string name="glow_times_quick">Quick</string>
+    <string name="glow_times_normal">Normal</string>
+    <string name="size_42_dp_default">42 dp (default)</string>
+    <string name="size_36_dp">36 dp</string>
+    <string name="size_30_dp">30 dp</string>
+    <string name="size_24_dp">24 dp</string>
+    <string name="size_48_dp_default">48 dp (default)</string>
+    <string name="size_44_dp">44 dp</string>
+    <string name="size_40_dp">40 dp</string>
+    <string name="size_42_dp">42 dp</string>
+    <string name="statusbar">Statusbar</string>
+    <string name="top_of_navbar">Top of navbar</string>
+    <string name="bottom_of_navbar">Bottom of navbar</string>
+    <string name="regular">Regular</string>
+    <string name="center_mirrored">Center-mirrored</string>
+    <string name="size_0_dp">0 dp (off)</string>
+    <string name="size_1_dp">1 dp</string>
+    <string name="size_2_dp">2 dp</string>
+    <string name="size_3_dp">3 dp</string>
+    <string name="size_4_dp">4 dp</string>
+
+    <!-- Nav Bar Widgets -->
+    <string name="navbar_widgets">Navigation Bar Widgets</string>
+    <string name="navbar_widgets_instructions">Swipe to view - Click to choose</string>
+    <string name="navbar_widgets_reset">Reset widgets</string>
+    <string name="navbar_widget_summary">Widget %1$s of %2$s</string>
+    <string name="navbar_widget_summary_add">Click to add Widget</string>
+    <string name="navbar_widgets_title">Configure widgets</string>
+    <string name="navbar_widgets_shiftLeft">Shift left</string>
+    <string name="navbar_widgets_shiftRight">Shift right</string>
+    <string name="navbar_widgets_delete">Delete widget</string>
+
+    <!-- Nav Ring Targets -->
+    <string name="navbar_ring_cat">Navigation Bar Ring Targets</string>
+    <string name="interface_softkey_settings">Softkey Settings</string>
+    <string name="interface_softkeys_pref_default_1_title">Target 1 short press activity</string>
+    <string name="interface_softkeys_pref_long_1_title">Target 1 long press activity</string>
+    <string name="interface_softkeys_pref_default_2_title">Target 2 short press activity</string>
+    <string name="interface_softkeys_pref_long_2_title">Target 2 long press activity</string>
+    <string name="interface_softkeys_pref_default_3_title">Target 3 short press activity</string>
+    <string name="interface_softkeys_pref_long_3_title">Target 3 long press activity</string>
+    <string name="interface_softkeys_pref_default_4_title">Target 4 short press activity</string>
+    <string name="interface_softkeys_pref_long_4_title">Target 4 long press activity</string>
+    <string name="interface_softkeys_pref_default_5_title">Target 5 short press activity</string>
+    <string name="interface_softkeys_pref_long_5_title">Target 5 long press activity</string>
+    <string name="interface_softkeys_pref_default_summary">Tap the settings icon to select a custom long press activity</string>
+    <string name="interface_softkeys_activity_dialog_title">Select Activity</string>
+    <string name="interface_softkeys_reboot_title">Reboot Menu</string>
+    <string name="interface_softkeys_screenshot_title">Screenshot</string>
+    <string name="interface_softkeys_screenoff_title">Screen Off</string>
+    <string name="interface_softkeys_ime_switcher_title">Open IME Switcher</string>
+    <string name="interface_softkeys_ring_vib_title">Toggle Ring/Vib</string>
+    <string name="interface_softkeys_ring_silent_title">Toggle Ring/Silent</string>
+    <string name="interface_softkeys_ring_vib_silent_title">Toggle Ring/Vib/Silent</string>
+    <string name="interface_softkeys_kill_process_title">Kill App</string>
+    <string name="interface_softkey_package_removed">The previously selected package was not found</string>
+    <string name="interface_navring_settings_title">Navigation bar ring</string>
+    <string name="interface_navring_settings_summary">Edit your custom nav ring apps</string>
+    <string name="title_navring_amount">Number of nav ring targets</string>
+    <string name="summary_navring_amount">How many ring targets you want? *Changing this will reset your current targets and restart your System UI*</string>
+    <string name="interface_navring_custom_pref_summary">Release on target to launch </string>
+    <string name="interface_navring_pref_default_summary">Tap to select a custom ring target activity</string>
+    <string name="interface_navring_assist_title">Google Now</string>
+    <string name="interface_navring">Ring Targets</string>
+    <string name="navbar_ring">Custom Ring Targets</string>
+    <string name="navring_enable_long">Enable Longpress for navring</string>
+
+    <!-- Share to clipboard -->
+    <string name="clipboard_notification">Copied to clipboard.</string>
+
+    <!-- General UI -->
+    <string name="tablet_cat">Tablet options</string>
+    <string name="custom_carrier_label_title">Custom carrier label</string>
+    <string name="custom_carrier_label_explain">Please enter a new label. Enter an empty label to revert to stock label.</string>
+    <string name="custom_carrier_label_notset">Custom label currently not set</string>
+    <string name="status_bar_notif_count_title">Show notification count</string>
+    <string name="status_bar_notif_count_summary">Display number of pending notifications on the status bar</string>
+    <string name="show_overflow_title">Show Menu UI Overflow</string>
+    <string name="show_overflow_summary">Display the 3-dot overflow menu button within apps</string>
+    <string name="show_overflow_toast_enable">The menu overflow button may not be visible until apps are restarted</string>
+    <string name="show_overflow_toast_disable">The menu overflow button may not be hidden until apps are restarted</string>
+    <string name="notification_wallpaper_title">Choose notification background</string>
+    <string name="notification_wallpaper_summary">You can remove the wallpaper from the menu in this window</string>
+    <string name="notif_wallpaper_alpha_title">Notification background alpha</string>
+    <string name="alpha_dialog_title">Set alpha value</string>
+    <string name="hide_extras">Hide Extras</string>
+    <string name="hide_extras_summary">Hide some systembar stuff i.e. the compat mode button(requires UI restart)</string>
+    <string name="user_mode_ui">UI Mode</string>
+    <string name="user_mode_ui_summary">What style to display NavBar and Statusbar</string>
+    <string name="phone_mode_ui">Phone - NavBar to side in landscape</string>
+    <string name="tablet_mode_ui">Tablet - Combined NavBar and SystemBar</string>
+    <string name="phablet_mode_ui">Phablet - NavBar stays at bottom in landscape</string>
+    <string name="multipane_ui">Enable Dual panel</string>
+    <string name="multipane_ui_summary">This will Enable/Disable Dual panel view (requires reboot)</string>
+    <string name="brightness_slider_title">Statusbar brightness slider</string>
+    <string name="brightness_slider_summary">Allows you to slide your finger along the top of the statusbar to change the brightness. Does nothing when autobrightness is enabled.</string>
+    <string name="recents_rambar_title">Enhance recents panel</string>
+    <string name="recents_rambar_summary">Add a memory usage bar to the recents panel</string>
+
+    <!-- LCD Density -->
+    <string name="lcd_density_title">LCD Density</string>
+    <string name="lcd_density_summary">unknown</string>
+    <string name="current_lcd_density">"Current LCD Density: "</string>
+    <string name="lcd_density_wizard">LCD Density Wizard</string>
+    <string name="follow_through_title">Follow through!</string>
+    <string name="follow_through_summary">Make sure you follow the steps one-by-one and complete each one before proceeding to the next.</string>
+    <string name="stock_density_title">1. Change LCD Density to stock value</string>
+    <string name="stock_density_summary">Tablets and older phones use 160. Most phones use 240. Galaxy Nexus uses 320 by default.</string>
+    <string name="stock_density_changed_summary">"Density set to: "</string>
+    <string name="reboot_title">2. Reboot!</string>
+    <string name="reboot_summary">Come back here after the reboot and complete the rest of the steps!</string>
+    <string name="clear_market_data_title">3. Clear market data</string>
+    <string name="clear_market_data_cleared">Market data cleared</string>
+    <string name="clear_market_data_donot_cleared">"Market data couldn't be cleared, please clear it yourself!"</string>
+    <string name="open_market_title">4. Open Market and hit accept</string>
+    <string name="open_market_summary">Press back when done to return here.</string>
+    <string name="open_market_summary_could_not_open">"Couldn't open the market! If you're sure it's installed, open it yourself from the launcher."</string>
+    <string name="custom_density_title">5. Change density to whatever you like!</string>
+    <string name="custom_density_summary">If you ever have compatibility issues with the market, be sure to return here and repeat the process.</string>
+    <string name="custom_density_summary_invalid">"INVALID DENSITY!"</string>
+    <string name="custom_density">custom</string>
+    <string name="set_custom_density_title">Set custom density</string>
+    <string name="set_custom_density_set">Set</string>
+    <string name="custom_density_dialog_title">"WARNING!"</string>
+    <string name="custom_density_dialog_summary">"Changing your LCD density can cause unexpected app behavior. If you encounter market app incompatibility please return here and restart the process from step 1."</string>
+    <string name="custom_density_dialog_button_got">Got it!</string>
+    <string name="custom_density_dialog_button_reboot">Reboot now</string>
+
+</resources>

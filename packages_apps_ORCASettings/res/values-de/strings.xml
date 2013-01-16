@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Xylon Settings</string>
+
+    <!-- Header Strings -->
+    <string name="user_interface">Benutzeroberfläche</string>
+    <string name="header_statusbar">Status Bar</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="ok">OK</string>
+    <string name="general_ui">General UI</string>
+    <string name="clock">Uhr</string>
+    <string name="signal">Signal</string>
+    <string name="quick_toggles">Quick Toggles</string>
+    <string name="others">Anderes</string>
+    <string name="navigation_bar">Navigation Bar</string>
+    <string name="power_menu">Power Menu</string>
+    <string name="tools">Tools</string>
+
+    <!-- Activity titles defined in AndroidManifest.xml -->
+    <string name="title_general_ui">General UI</string>
+    <string name="title_statusbar_clock">Statusbar Clock</string>
+    <string name="title_quick_toggles">Quick Toggles</string>
+    <string name="title_statusbar_signal">Statusbar Signal</string>
+    <string name="title_statusbar">Statusbar</string>
+    <string name="title_navbar">Navigation Bar</string>
+    <string name="title_power_menu">Power Menu</string>
+    <string name="title_navring">Navigation Ring</string>
+    <string name="title_clipboard_share">Share to Clipboard</string>
+
+    <!-- Header Summaries -->
+    <string name="header_summary_statusbar">Batterie und Farben...</string>
+
+    <!-- Menu Strings -->
+    <string name="menu_nav_bar_reset">NavBar zurücksetzen</string>
+    <string name="menu_main_activity_change_locale">Locale</string>
+    <string name="menu_user_interface_reset">Benachrichtigungs Wallpaper zurücksetzen</string>
+    <string name="menu_lockscreens_reset">Lockscreen Wallpaper zurücksetzen</string>
+
+    <!-- General Strings -->
+    <string name="advanced_settings">Erweiterte Einstellungen</string>
+    <string name="misc_short">Verschiedenes</string>
+    <string name="custom_app_icon_successfully">"'s Bild erfolgreich gesetzt!"</string>
+    <string name="select_custom_app_title">Wähle benutzerdefinierte Anwendung</string>
+    <string name="use_custom_app_title">Nutze benutzerdefinierte Anwendung</string>
+    <string name="use_custom_app_summary">Nutze benutzerdefinierte Anwendung und ersetze den "Recent apps screen"</string>
+    <string name="group_applications">Anwendungen</string>
+    <string name="select_application">Wähle Anwendung</string>
+    <string name="dpi">DPI</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Farbe wählen</string>
+    <string name="press_color_to_apply">Auf die Farbe drücken zum bestätigen</string>   
+
+    <!-- Power Menu -->
+    <string name="title_show_screenshot">Zeige Screenshot</string>
+    <string name="title_show_airplane_toggle">Aktiviere Flugzeugmodus toggle</string>
+    <string name="power_menu_expanded_desktop">Aktiviere erweiterten Desktop</string>
+    <string name="title_show_navbar_hide">Aktiviere navigation bar toggle</string>
+
+    <!-- Status Bar Headers -->
+    <string name="status_bar_clock_header">Uhr</string>
+    <string name="status_bar_battery_header">Batterie</string>
+    <string name="status_bar_signal_header">Signal</string>
+    <string name="status_bar_misc">Verschiedenes</string>
+
+    <!-- Status Bar -->
+    <string name="status_bar_clock_title">Aussehen der Uhr</string>
+    <string name="status_bar_general_title">Allgemein</string>
+    <string name="clock_title_enable">Aussehen der Uhr</string>
+    <string name="title_clock_ampm_entries">AM/PM Stil</string>
+    <string name="enable_clock_weekday">Tag der Woche</string>
+    <string name="enable_clock_weekday_summary">Abkürzung des Tages, der vor der Uhrzeit steht</string>
+    <string name="statusbar_background_color">Statusbar Farbe</string>
+    <string name="clock_color_title">Farbe der Uhr</string>
+    <string name="alarm">Alarme</string>
+    <string name="clock_options">Uhr optionen</string>
+    <string name="nothing">Nichts</string>
+    <string name="today">Kalender für heute</string>
+    <string name="event">Calendar new event</string>
+    <string name="voiceassist">Sprachsteuerung</string>
+    <string name="title_clock_doubleclick">Doppeldrück Uhr-Aktionen</string>
+    <string name="title_clock_longclick">Langdrück Uhr-Aktionen </string>
+    <string name="title_clock_shortclick">Kurzdrück Uhr-Aktionen</string>
+    <string name="battery_icon_title">Symbol Style</string>
+
+    <!-- Battery Bar -->
+    <string name="battery_bar">Battery bar Ort</string>
+    <string name="battery_bar_color">Battery bar Farbe</string>
+    <string name="battery_bar_cat">Battery bar Optionen</string>
+    <string name="battery_bar_style_title">Battery bar style</string>
+    <string name="battery_bar_thickness_title">Battery bar thickness</string>
+    <string name="battery_bar_animate_title">Lade-Animation</string>
+    <string name="battery_bar_animate_summary">Die Lade-Animation kann zu einem langsameren System führen!</string>
+
+    <!-- Statusbar | Signal -->
+    <string name="signal_style">Signal text style</string>
+    <string name="signal_color_title">Signal color</string>
+    <string name="hide_signal_title">Hide signal bars</string>
+    <string name="hide_signal_summary">Updates when signal strength changes</string>
+    <string name="wifi_signal_style">Wi-Fi Signal text style</string>
+    <string name="wifi_signal_color_title">Wi-Fi Signal color</string>
+
+    <!-- signal style -->
+    <string name="show_signal_bars">Zeige Signalleiste</string>
+    <string name="show_signal_text">Zeige Signaltext</string>
+    <string name="show_with_dbm">Zeige mit dBm</string>
+
+    <!-- Statusbar | Clock -->
+    <string name="right_clock">Uhr rechts</string>
+    <string name="center_clock">Uhr links</string>
+    <string name="no_clock">Keine Uhr</string>
+    <string name="dont_show">Ausblenden</string>
+    <string name="small_am_pm">Kleines AM/PM</string>
+    <string name="regular_am_pm">Normales AM/PM</string>
+    <string name="small_weekday">Kleiner Wochentag</string>
+    <string name="regular_weekday">Normaler Wochentag</string>
+
+    <!-- Statusbar + Navigationbar Background color -->
+    <string name="navbar_bg">Navbar Hintergrund</string>
+    <string name="navbar_button_colors">Navbar button color</string>
+    <string name="background_style">Background Color Style</string>
+    <string name="bgs_color">Color/Alpha only</string>
+    <string name="bgs_defaultbg_plus_color">Default Background + Color/Alpha</string>
+    <string name="bgs_defaultbg">Default Background only</string>
+    <string name="statusbar_bg">Statusleisten Hintergrung</string>
+    <string name="navbar_bg_color">Navigationsleiste Hintergrund</string>
+
+    <!-- Quick Toggles | AOKP -->
+    <string name="toggle_airplane_mode">Flugzeugmodus</string>
+    <string name="toggle_auto_rotate">Auto Rotation</string>
+    <string name="toggle_silent">Ruhe</string>
+    <string name="toggle_sync">Sync</string>
+    <string name="toggle_torch">Lampe</string>
+    <string name="toggle_vibrate">Vibration</string>
+    <string name="toggle_user">Benutzer</string>
+    <string name="toggle_favorite_contact">Bevorzugter Kontakt</string>
+    <string name="toggle_settings">Settings</string>
+    <string name="toggle_signal">Signal</string>
+    <string name="toggle_clock">Uhr</string>
+    <string name="toggle_battery">Batterie</string>
+    <string name="toggle_brightness">Helligkeit</string>
+    <string name="toggle_screen">Bildschirm aus</string>
+
+    <string name="toggles_display_dialog">Choose which toggles to use</string>
+    <string name="enabled_toggles_title">Aktiviere toggles</string>
+    <string name="enabled_toggles_summary">Choose toggles to display</string>
+    <string name="toggles_display_close">Schließen</string>
+    <string name="toggles_order_title">Toggle Reihenfolge</string>
+    <string name="toggles_order_summary">Choose the order which your toggles are displayed</string>
+    <string name="toggles_per_row_title">Toggles pro Reihe</string>
+    <string name="toggles_per_row_summary">Choose how many toggles to show per row</string>
+    <string name="toggle_favcontact_title">Bevorzugter Kontakt</string>
+    <string name="toggle_favcontact_summary">Wähle deinen nevorzugten Kontakt</string>
+    <string name="toggle_enable_fasttoggle_title">Aktiviere fast toggle</string>
+    <string name="toggle_enable_fasttoggle_summary">Möglichkeit, die toggle direkt zu ziehen im Gegensatz zum Standard JB Verhalten</string>
+    <string name="toggle_choose_fasttoggle_side_title">Wähle fast toggle Seite</string>
+    <string name="toggle_choose_fasttoggle_side_summary">Wähle, auf welcher Seite das fast toggle erscheint</string>
+
+    <!-- holo theme style for Quick Setting tiles -->
+    <string name="quicksettings_theme_style_summary">Wähle zwischen holo light oder holo dark</string>
+    <string name="quick_text_color_title">Textfarbe</string>
+
+    <!-- Navigation Bar -->
+    <string name="right">Rechts</string>
+    <string name="left">Links</string>
+    <string name="both">Beides</string>
+    <string name="default_jb_behavior">Voreingestelltes JB Verhalten</string>
+    <string name="home">Home</string>
+    <string name="back">Zurück</string>
+    <string name="recents">Recents</string>
+    <string name="search">Suche</string>
+    <string name="screenshot">Screenshot</string>
+    <string name="menu">Menü</string>
+    <string name="power">Power</string>
+    <string name="notifications">Benachrichtigungen</string>
+    <string name="custom_app">Benutzerdefinierte app</string>
+    <string name="none">None</string>
+    <string name="take_screenshot">Mache Screenshot</string>
+    <string name="ring_vib">Ring/Vib</string>
+    <string name="ring_silent">Ring/Silent</string>
+    <string name="ring_vib_silent">Ring/Vib/Silent</string>
+    <string name="screen_off">Bildschirm aus</string>
+    <string name="one_target">1 Ziel</string>
+    <string name="two_targets">2 Ziele</string>
+    <string name="three_targets">3 Ziele</string>
+    <string name="four_targets">4 Ziele</string>
+    <string name="five_targets">5 Ziele</string>
+    <string name="always_show_invincible_icons">Always show invisible icons</string>
+    <string name="always_show">Immer an</string>
+    <string name="default_jb_with_invincible_icons_when_hidden">Default JB with invisible icons when hidden</string>
+    <string name="navbar_button_cat">Navigation bar buttons</string>
+    <string name="title_pref_menu_display">Menu location</string>
+    <string name="summary_pref_menu_display">Remember to remove your menu buttons if you\'re using the big menu button!</string>
+    <string name="title_pref_navigation_menu_display">Menu visibility</string>
+    <string name="summary_pref_navigation_menu_display">How and when do you want the menu buttons to appear?</string>
+    <string name="navbar_qty_title">Navigation button quantity</string>
+    <string name="navbar_qty_summary">Choose the number of navigation buttons</string>
+    <string name="navbar_action_title">Button %1$s action &amp; icon</string>
+    <string name="button_transparency_title">Nav button transparency</string>
+    <string name="navbar_width_help_title">NavBar combined width help</string>
+    <string name="navbar_width_help_summary">100 is 70\%% of screen width, 5 is 30\%% of screen width. 0 will default to per button width.</string>
+    <string name="width_port_title">Combined bar width port</string>
+    <string name="width_land_title">Combined bar width land</string>
+    <string name="navbar_longpress_title">Button %1$s longpress action</string>
+    <string name="navbar_action_home">Home</string>
+    <string name="navbar_action_back">Zurück</string>
+    <string name="navbar_action_recents">Recents</string>
+    <string name="navbar_action_search">Suche</string>
+    <string name="navbar_action_menu">Menü</string>
+    <string name="navbar_action_kill">Kill task</string>
+    <string name="navbar_action_power">Power</string>
+    <string name="navbar_action_notifications">Benachrichtigungen</string>
+    <string name="navbar_action_none">Leer</string>
+    <string name="navbar_enable_bar">Aktiviere bar</string>
+    <string name="navigation_bar_height_title">Navigation Bar Höhe</string>
+    <string name="navigation_bar_height_summary">Navigation Bar Höhe im Hochformat.</string>
+    <string name="navigation_bar_height_landscape_title">Navigation bar Höhe im Querformat.</string>
+    <string name="navigation_bar_height_landscape_summary">Navigation Bar Höhe im Querformat.</string>
+    <string name="navigation_bar_width_title">Navigation bar Breite</string>
+    <string name="navigation_bar_width_summary">Navigation Bar height if the bar is along a side.</string>
+    <string name="navbar_enable_dialog_title">Neustart benötigt!</string>
+    <string name="navbar_enable_dialog_msg">You <b>should</b> reboot right now to make sure everything works properly!</string>
+    <string name="navbar_enable_dialog_negative">Ich starte das Handy später neu</string>
+    <string name="navbar_enable_dialog_Positive">Jetzt neustarten!</string>
+    <string name="navbar_height_dialog_title">Neustart benötigt!</string>
+    <string name="navbar_height_dialog_summary">Please reboot for height change to be added properly!</string>
+    <string name="navbar_height_dialog_button_later">Ich starte das Handy später neu</string>
+    <string name="navbar_height_dialog_button_reboot">Jetzt neustarten!</string>
+    <string name="navigation_bar_tint_title">Navigation bar Farbe</string>
+    <string name="navigation_bar_glow_tint_title">Navigation bar glow Farbe</string>
+    <string name="navigation_bar_glow_tint_summary">When you press on a button, there is a glow. Use this to change the color of the glow.</string>
+    <string name="navigation_bar_menu_arrow_keys_title">Menu arrow keys</string>
+    <string name="navigation_bar_menu_arrow_keys_summary">Show arrow keys in the navigation bar while typing</string>
+    <string name="glow_times_title">Button glow animation</string>
+    <string name="glow_times_off">Aus</string>
+    <string name="glow_times_superquick">Sehr schnell</string>
+    <string name="glow_times_quick">Schnell</string>
+    <string name="glow_times_normal">Normal</string>
+    <string name="size_42_dp_default">42 dp (voreingestellt)</string>
+    <string name="size_48_dp_default">48 dp (voreingestellt)</string>
+    <string name="statusbar">Statusbar</string>
+    <string name="top_of_navbar">Top of navbar</string>
+    <string name="bottom_of_navbar">Bottom of navbar</string>
+    <string name="regular">Regular</string>
+    <string name="center_mirrored">Center-mirrored</string>
+    <string name="size_0_dp">0 dp (aus)</string>
+
+    <!-- Nav Bar Widgets -->
+    <string name="navbar_widgets_instructions">Swipe to view - Click to choose</string>
+    <string name="navbar_widgets_reset">Widgets zurücksetzen</string>
+    <string name="navbar_widget_summary">Widget %1$s of %2$s</string>
+    <string name="navbar_widget_summary_add">Drücke zum Hinzufügen eines Widgets</string>
+    <string name="navbar_widgets_title">Konfiguriere Widget</string>
+    <string name="navbar_widgets_shiftLeft">Shift left</string>
+    <string name="navbar_widgets_shiftRight">Shift right</string>
+    <string name="navbar_widgets_delete">Lösche Widget</string>
+
+    <!-- Nav Ring Targets -->
+    <string name="navbar_ring_cat">Navigation Bar Ring Targets</string>
+    <string name="interface_softkey_settings">Softkey Einstellungen</string>
+    <string name="interface_softkeys_pref_default_1_title">Target 1 short press activity</string>
+    <string name="interface_softkeys_pref_long_1_title">Target 1 long press activity</string>
+    <string name="interface_softkeys_pref_default_2_title">Target 2 short press activity</string>
+    <string name="interface_softkeys_pref_long_2_title">Target 2 long press activity</string>
+    <string name="interface_softkeys_pref_default_3_title">Target 3 short press activity</string>
+    <string name="interface_softkeys_pref_long_3_title">Target 3 long press activity</string>
+    <string name="interface_softkeys_pref_default_4_title">Target 4 short press activity</string>
+    <string name="interface_softkeys_pref_long_4_title">Target 4 long press activity</string>
+    <string name="interface_softkeys_pref_default_5_title">Target 5 short press activity</string>
+    <string name="interface_softkeys_pref_long_5_title">Target 5 long press activity</string>
+    <string name="interface_softkeys_pref_default_summary">Tap the settings icon to select a custom long press activity</string>
+    <string name="interface_softkeys_activity_dialog_title">Select Activity</string>
+    <string name="interface_softkeys_reboot_title">Reboot Menu</string>
+    <string name="interface_softkeys_screenoff_title">Bildschirm aus</string>
+    <string name="interface_softkey_package_removed">Das zuvor gewählte Packet wurde nicht gefunden!</string>
+    <string name="interface_navring_settings_title">Navigation bar ring</string>
+    <string name="interface_navring_settings_summary">Edit your custom nav ring apps</string>
+    <string name="title_navring_amount">Number of nav ring targets</string>
+    <string name="summary_navring_amount">How many ring targets you want? *Changing this will reset your current targets and restart your System UI*</string>
+    <string name="interface_navring_custom_pref_summary">Release on target to launch </string>
+    <string name="interface_navring_pref_default_summary">Tap to select a custom ring target activity</string>
+    <string name="interface_navring">Ring Targets</string>
+    <string name="navbar_ring">Custom Ring Targets</string>
+    <string name="navring_enable_long">Enable Longpress for navring</string>
+
+    <!-- Share to clipboard -->
+    <string name="clipboard_notification">In den Zwischenspeicher kopiert.</string>
+
+    <!-- General UI -->
+    <string name="custom_carrier_label_title">Custom carrier label</string>
+    <string name="custom_carrier_label_explain">Please enter a new label. Enter an empty label to revert to stock label.</string>
+    <string name="custom_carrier_label_notset">Custom label currently not set</string>
+    <string name="status_bar_notif_count_title">Show notification count</string>
+    <string name="status_bar_notif_count_summary">Display number of pending notifications on the status bar</string>
+    <string name="show_overflow_title">Show Menu UI Overflow</string>
+    <string name="show_overflow_summary">Display the 3-dot overflow menu button within apps</string>
+    <string name="show_overflow_toast_enable">The menu overflow button may not be visible until apps are restarted</string>
+    <string name="show_overflow_toast_disable">The menu overflow button may not be hidden until apps are restarted</string>
+    <string name="notification_wallpaper_title">Auswahl des Benachrichtigungs Hintergrund</string>
+    <string name="notification_wallpaper_summary">Sie können das Hintergrundbild des Menüs hier auswählen</string>
+    <string name="notif_wallpaper_alpha_title">Benachrichtigungs Hintergrund alpha</string>
+    <string name="alpha_dialog_title">Set alpha value</string>
+    <string name="user_mode_ui_summary">What style to display NavBar and Statusbar</string>
+    <string name="phone_mode_ui">Phone - NavBar to side in landscape</string>
+    <string name="tablet_mode_ui">Tablet - Combined NavBar and SystemBar</string>
+    <string name="phablet_mode_ui">Phablet - NavBar stays at bottom in landscape</string>
+    <string name="brightness_slider_title">Statusbar brightness slider</string>
+    <string name="brightness_slider_summary">Allows you to slide your finger along the top of the statusbar to change the brightness. Does nothing when autobrightness is enabled.</string>
+</resources>

@@ -1,0 +1,56 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  <header android:title="@string/user_interface" />
+
+     <header
+        android:id="@+id/general_ui"
+        android:fragment="com.orca.settings.fragments.GeneralUI"
+        android:title="@string/general_ui"
+        android:icon="@drawable/ic_settings_general_ui"
+        android:summary="@string/header_summary_general_ui" />
+
+     <header
+        android:id="@+id/power_menu"
+        android:fragment="com.orca.settings.fragments.PowerMenu"
+        android:title="@string/power_menu"
+        android:icon="@drawable/ic_settings_power_menu"
+        android:summary="@string/header_summary_power_menu" />
+
+     <header
+        android:id="@+id/navigation_bar"
+        android:fragment="com.orca.settings.fragments.NavigationBar"
+        android:title="@string/navigation_bar"
+        android:icon="@drawable/ic_settings_navigation_bar"
+        android:summary="@string/header_summary_navigation_bar" />
+
+  <header android:title="@string/header_statusbar" />
+
+     <header
+        android:id="@+id/statusbar_clock"
+        android:fragment="com.orca.settings.fragments.StatusBarClock"
+        android:title="@string/clock"
+        android:icon="@drawable/ic_settings_clock"
+        android:summary="@string/header_summary_clock" />
+
+     <header
+        android:id="@+id/statusbar_signal"
+        android:fragment="com.orca.settings.fragments.StatusBarSignal"
+        android:title="@string/signal"
+        android:icon="@drawable/ic_settings_signal"
+        android:summary="@string/header_summary_signal" />
+
+     <header
+        android:id="@+id/quick_toggles"
+        android:title="@string/quick_toggles"
+        android:fragment="com.orca.settings.fragments.QuickToggles"
+        android:icon="@drawable/ic_settings_quick_toggles"
+        android:summary="@string/header_summary_toggles" />
+
+     <header
+        android:id="@+id/statusbar"
+        android:fragment="com.orca.settings.fragments.StatusBar"
+        android:title="@string/others"
+        android:icon="@drawable/ic_settings_statusbar"
+        android:summary="@string/header_summary_statusbar" />
+
+</preference-headers>
